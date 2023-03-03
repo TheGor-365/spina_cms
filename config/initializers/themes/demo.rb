@@ -45,7 +45,8 @@ Spina::Theme.register do |theme|
   # By naming them you can reference them in your code.
   theme.custom_pages = [
     {name: "homepage", title: "Homepage", deletable: false, view_template: "homepage"},
-    {name: "demo", title: "Demo", deletable: true, view_template: "demo"}
+    {name: "demo", title: "Demo", deletable: true, view_template: "demo"},
+    {name: "articles", title: "Articles", deletable: true, view_template: "articles"}
   ]
 
   # Navigations (optional)
